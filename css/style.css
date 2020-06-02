@@ -202,19 +202,24 @@ img {
 	margin: 15px;
 }
 
-.blog__card:hover .blog__card-pic{
+.blog__card:hover .blog__card-pic {
 	transform: scale(1.05);
 }
 
 
-.blog__card-pic {
-	object-fit: cover;
+.blog__card-pic-box {
+	overflow: hidden;
 	height: 200px;
 	width: 300px;
 	margin-bottom: 15px;
-	transition: .15s all;
-	overflow: hidden;
+	border-radius: 10px;
 }
+
+.blog__card-pic {
+	object-fit: cover;
+	transition: .15s all;
+}
+
 
 
 /* BLOG END */
