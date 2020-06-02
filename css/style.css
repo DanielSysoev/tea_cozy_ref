@@ -202,7 +202,7 @@ img {
 	margin: 15px;
 }
 
-.blog__card:hover .blog__card-pic {
+.blog__card:hover .blog__card-pic{
 	transform: scale(1.05);
 }
 
@@ -212,7 +212,6 @@ img {
 	height: 200px;
 	width: 300px;
 	margin-bottom: 15px;
-	border-radius: 10px;
 }
 
 .blog__card-pic {
