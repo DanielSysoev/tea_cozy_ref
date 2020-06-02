@@ -287,7 +287,8 @@ img {
 .copyright {
 	position: absolute;
 	left: 20px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
+	line-height: 30px;
 }
 
 
@@ -306,6 +307,12 @@ img {
 
 	.blog {
    	margin-bottom: 50px;
+   }
+
+   .copyright {
+   	position: relative;
+   	left: 0;
+   	font-size: 15px;
    }
 }
 
